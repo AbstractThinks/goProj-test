@@ -1,5 +1,5 @@
-hash: 34c93b194bb176eb734bfecb43138b8affe03b8b49923da58b6c4846c3f44c3c
-updated: 2017-02-09T10:45:41.880551+08:00
+hash: 0c639aa29b7034da7cb2e5e6e2aa2fa6a8bb7c5ce4556aa7a5e1536472e92720
+updated: 2017-02-09T16:33:05.4317595+08:00
 imports:
 - name: github.com/astaxie/beego
   version: 90999717dda6193c6f970eec52e289b0a9e74998
@@ -8,9 +8,12 @@ imports:
   - context
   - grace
   - logs
+  - orm
   - session
   - toolbox
   - utils
+- name: github.com/go-sql-driver/mysql
+  version: a0583e0143b1624142adab07e0e97fe106d99561
 testImports:
 - name: github.com/gopherjs/gopherjs
   version: 2d0acd02933cf349b065398c73490a14f7d9bada

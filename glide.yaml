@@ -1,0 +1,9 @@
+package: goProj-test
+import:
+- package: github.com/astaxie/beego
+  version: ^1.7.2
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: ^1.6.2
+  subpackages:
+  - convey
